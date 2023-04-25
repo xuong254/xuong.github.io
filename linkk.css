@@ -1,0 +1,155 @@
+.nav-header {
+    background-color:#33799f;
+    display: inline-flex;
+    margin-right: 95px;
+    margin: 0;    
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+    padding: 9px 0 10px;
+    width: 100%;
+    padding-left: 50px;
+    
+    
+    
+}
+.menu-icon{
+  width: 20px;
+  color:#fff;
+  line-height: 35px;
+  
+}
+
+.nav-header li:hover {
+    background: #33799f;
+    border-radius: 3px;
+
+}
+.nav-header li{
+    padding-right: 20px;
+    border-right: 1px solid rgba(255, 255, 255, 0.69);
+    margin-right: 20px;
+    
+    
+    
+}
+.nav-header li a {
+    color: #fff;
+    font-family: arial;
+    width: 100%;
+    text-decoration: none;
+    
+}
+.menu_doc_child {
+    background-color:#33799f; 
+    font-weight:bold;
+    padding-top:10px;
+    padding-left:10px;
+    padding-bottom:0px;
+}
+.root>li{
+    list-style: none;
+    float: left;
+    position: relative;
+    display: block;
+}
+.root>li>a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 15px 0px 15px;
+    line-height: 50px;
+    display: block;
+}
+.menu_web{
+    width: 100%;
+    height: 60px;
+    margin: 0px auto;
+}
+.root li a:hover{
+    color: rgb(98, 168, 230);
+    transform: ease-in 0.40s;
+    font-weight: bold;
+}
+.submenu{
+    width: 200px;
+    background-color: white;
+    min-height: 80px;
+    display: none;
+    position: absolute;
+}
+.submenu li 
+{list-style: none;}
+
+.submenu li a{
+    text-transform: none;
+    text-decoration: none;
+    color: black;
+    line-height: 40px;
+    text-align: 16px;
+    display: block;
+}
+.root>li:hover .submenu{
+    display: block;
+    background-color: white;
+}
+.header img{
+    height: 500px;
+    width: 100%;
+    text-align: left;
+}                     
+.row{
+   font-size: 30px;
+   padding-left: 100px;
+}    
+.new img{
+    width: 400px;
+    height: 250px;
+    padding-left: 100px;
+    list-style: none;
+    justify-content: center;
+}     
+.new{
+    display: flex; 
+}
+.new a{
+    text-decoration: none;
+    
+}
+div.center{
+    display: flex;
+    justify-content: center;
+}    
+.center img{
+    padding-left: 100px;
+    width: 1150px;
+    height: 150px;
+}        
+.new2{
+    font-size: 30px;
+    padding-left: 100px;
+}      
+.new3 img{
+    width: 300px;
+    height: 170px;
+    padding-left: 100px;
+    list-style: none;
+    justify-content: center;
+} 
+.new3{
+    display: flex;
+}
+.banthan img{
+    width: 200px;
+    height: 300px;
+}
+    
+
+.footer{
+    text-align:center;
+    background-color:#ccc;
+    width:100%;
+}
+.form{
+    background:#33799f;
+    width:500px;
+}
